@@ -1,5 +1,4 @@
-﻿
-using Calculadora;
+﻿using Calculadora;
 
 Console.WriteLine("__________Calculadora__________");
 

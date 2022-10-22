@@ -50,5 +50,15 @@ namespace TestProject1
             }
 
         }
+        [Test]
+        public void TestDivisao(){
+            if (operacoes.Dividir(2,2)== 1)
+            {
+                Assert.Pass();
+            }else
+            {
+                Assert.Fail();
+            }
+        }
     }
 }
